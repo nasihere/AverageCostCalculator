@@ -10,7 +10,7 @@ import AppBar from 'material-ui/AppBar';
 
 
 ReactDOM.render(
-  	<MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
+  	<MuiThemeProvider muiTheme={getMuiTheme(lightBaseTheme)}>
 
 		<App />
 	</MuiThemeProvider>,
