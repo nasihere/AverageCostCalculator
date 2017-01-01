@@ -19,8 +19,8 @@ export default class AvgSlider  extends React.Component {
   render() {
     return (
       <div style={styles.root}>
-      <Slider onChange={this.props.change} style={{height: 150}} axis="y" max={8000} defaultValue={2000} />
-    </div>
+        <Slider onChange={this.props.change} max={this.props.max} min={1} value={this.props.value} style={{height: 150}} axis="y" />
+      </div>
     )
   }
 };

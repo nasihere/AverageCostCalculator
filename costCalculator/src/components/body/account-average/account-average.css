@@ -5,9 +5,22 @@
 }
 .equity-slider{
     float:left;
-    margin-left: 40px;
+    margin-top:-20px;
+}
+
+.price-slider{
+    float:left;
     margin-top:-20px;
 }
 .account-average-slider-height {
     height: 300px;
+}
+
+.account-average-35-Width {
+   width: 30%; 
+   float: left;
+   margin-bottom: 10px;
+}
+.account-color-blue{
+    color: cornflowerblue;
 }

@@ -6,7 +6,7 @@ import NavigationMenu from 'material-ui/svg-icons/navigation/menu';
 import Avatar from 'material-ui/Avatar';
 import Drawer from 'material-ui/Drawer';
 
-const AppTitle = 'Average Cost Calculator';
+const AppTitle = 'Average Share Cost Calculator';
 
 const styles = {
   title: {
@@ -22,7 +22,8 @@ export default class AppHeader  extends React.Component {
     return (
         <AppBar
           title={<span style={styles.title}>{AppTitle}</span>}
-          iconElementLeft={<Avatar src="/profilepic.jpg" />} />
+          iconElementRight={<span></span>}
+          iconElementLeft={<span></span>} />
       
     );
   }

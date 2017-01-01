@@ -30,6 +30,14 @@
    float: left;
    margin-bottom: 10px;
 }
+.account-hold-35-Width {
+   width: 30%; 
+   margin-bottom: 10px;
+}
+.account-hold-65-Width {
+   width: 70%; 
+   margin-bottom: 10px;
+}
 .account-hold-50-Width {
    width: 50%; 
    float: left;
@@ -62,4 +70,8 @@
     
      width: 100%;
     text-align: left;
+}
+
+.account-hold-text-value {
+  font-size: 20px;
 }

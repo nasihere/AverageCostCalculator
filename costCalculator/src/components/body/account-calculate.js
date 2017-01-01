@@ -14,7 +14,7 @@ exports.updateNewShares = function(newShares) {
     return newShares + total.oldPosition.shares;
 };
 exports.updateNewEquity = function(newEquity) {
-    total.Position.equity = newEquity + total.oldPosition.equity;
+    return newEquity + total.oldPosition.equity;
 };
 
 exports.GetTotal = function(positions) {
