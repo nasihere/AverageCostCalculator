@@ -3,6 +3,16 @@ import './account-average.css';
 import Divider from 'material-ui/Divider';
 import AvgSlider from './average-slider/average-slider';
 import {position, updateNewShares, updateNewEquity, GETCostShares, GetNewTotal} from './../account-calculate';
+import Paper from 'material-ui/Paper';
+
+const style = {
+  height: 100,
+  width: 100,
+  margin: 40,
+  color: '#a9a9a9',
+  textAlign: 'center',
+  display: 'inline-block',
+};
 
 let MAX_EQUITY = 10000;
 let MAX_SHARES = 10000;
@@ -116,13 +126,12 @@ export default class AccountAverage  extends React.Component {
               <span className="account-hold-label">TOTAL EQUITY VALUE $</span>
               <span className="account-hold-value">{this.state.equityNew.toLocaleString()}</span>
             </div>
-            <div className="account-hold-50-Width">
-              <span className="account-hold-label-disabled">AVERAGE COST/SHARES</span>
-              <span className="account-hold-value account-color-blue ">${this.state.average.toLocaleString()}</span>
-            </div>
-            <div className="account-hold-100-Width">
-              <Divider />
-            </div>
+
+            <div className="account-hold-50-Width bg-average">
+                <span className="account-hold-label "> NEW AVERAGE COST/SHARES: </span>
+                <span className="account-hold-value account-color-blue ">${this.state.average.toLocaleString()}</span>
+             </div>
+
             
             
 

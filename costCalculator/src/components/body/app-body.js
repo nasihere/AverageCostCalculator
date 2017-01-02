@@ -11,7 +11,7 @@ const styles = {
     display: 'inner-block'
   },
   paperAvg: {
-    height: 480,
+    height: 450,
     margin: 20,
     textAligh: 'centre',
     display: 'inner-block'
